@@ -62,6 +62,11 @@ app.get('/new', (req, res) => {
   res.send('<h1>new data entered</h1>')
 })
 
+app.get('/new', (req, res) => {
+  res.send('<h3>new data entered</h3>')
+})
+
+
 app.listen(process.env.PORTS, () => {
   console.log(`Example app listening on port ${port}`)
 })
